@@ -1,0 +1,56 @@
+[
+  {
+    "model": "todolist.task",
+    "pk": 1,
+    "fields": {
+      "description": "Cделать домашку №52",
+      "deadline": "2023-02-14",
+      "status": "in process"
+    }
+  },
+  {
+    "model": "todolist.task",
+    "pk": 7,
+    "fields": {
+      "description": "Помыть машину",
+      "deadline": "2023-02-15",
+      "status": "new"
+    }
+  },
+  {
+    "model": "todolist.task",
+    "pk": 8,
+    "fields": {
+      "description": "Купить молоко",
+      "deadline": "2023-02-15",
+      "status": "new"
+    }
+  },
+  {
+    "model": "todolist.task",
+    "pk": 9,
+    "fields": {
+      "description": "Приготовить ужин",
+      "deadline": "2023-02-13",
+      "status": "done"
+    }
+  },
+  {
+    "model": "todolist.task",
+    "pk": 10,
+    "fields": {
+      "description": "Прочитать книгу \"Как все успевать\"",
+      "deadline": "2023-02-28",
+      "status": "in process"
+    }
+  },
+  {
+    "model": "todolist.task",
+    "pk": 11,
+    "fields": {
+      "description": "Сделать ген.уборку",
+      "deadline": "2023-02-18",
+      "status": "new"
+    }
+  }
+]
