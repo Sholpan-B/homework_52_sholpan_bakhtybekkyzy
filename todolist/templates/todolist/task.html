@@ -1,0 +1,17 @@
+{% extends 'todolist/main.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Задача: {{ task.description }}</h3>
+<h3>Статус: {{ task.status }}</h3>
+<h3>Выполнить до: {{ task.deadline }}</h3>
+<a href="{% url 'tasks' %}">Назад</a>
+</body>
+</html>
+{% endblock content %}

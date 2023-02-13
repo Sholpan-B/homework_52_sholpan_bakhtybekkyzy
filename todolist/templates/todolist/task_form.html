@@ -1,0 +1,20 @@
+{% extends 'todolist/main.html' %}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Форма добавления задачи</h3>
+<form method='POST' action="">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Сохранить">
+</form>
+<a href="{% url 'tasks' %}">Назад</a>
+</body>
+</html>
+{% endblock content %}
